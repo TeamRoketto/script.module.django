@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.django" name="Django" version="4.2.16" provider-name="Team Roketto">
+	<requires>
+		<import addon="script.module.asgiref"/>
+		<import addon="script.module.backports.zoneinfo"/>
+		<import addon="script.module.sqlparse"/>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="resources/lib/django"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">A high-level Python web framework that encourages rapid development and clean, pragmatic design</summary>
+		<description lang="en_GB">Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.</description>
+		<platform>all</platform>
+		<license>BSD 3-Clause License</license>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
